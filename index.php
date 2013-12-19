@@ -15,10 +15,10 @@
 		<div id="top"><img src="./pic/logo.png" alt="logo van PixelIglo"></div>
 		 
 		 <div id="bottom">
-		 	<div id="baseline">We're still building our webIglo!</div>
+		 	<div id="baseline">We're still building our webiglo!</div>
 		 	<div id="social">
-				<a href="http://www.twitter.com"><img src="./pic/t.png" alt="twitter link"></a>
-				<a href="http://www.facebook.com"><img src="./pic/f.png" alt="facebook link"></a>
+				<a href="https://twitter.com/PixelIglo"><img src="./pic/t.png" alt="twitter link"></a>
+				<a href="https://www.facebook.com/pixeliglo"><img src="./pic/f.png" alt="facebook link"></a>
 		 	</div>
 		 </div>
 	</div>

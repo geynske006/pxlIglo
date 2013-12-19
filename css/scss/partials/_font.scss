@@ -1,0 +1,26 @@
+//
+// mixin for bullet proof font declaration syntax
+//
+@mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+	@font-face {
+		font-family: $font-family,Arial,sans-serif;
+		src: url('../font/#{$font-filename}.ttf'),
+			url('../font/#{$font-filename}.eot')/* IE9 */;
+		/*src: url('../font/#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+		url('../font/#{$font-filename}.woff') format('woff'),
+		url('../font/#{$font-filename}.ttf') format('truetype'),
+		url('../font/#{$font-filename}.svg##{$font-family}') format('svg');*/
+		font-weight: $font-weight;
+		font-style: $font-style;
+		font-stretch: $font-stretch;
+	}
+}
+	@include declare-font-face(myriad, 'myriad', 200);
+#baseline{
+	
+	font-size: 30px;
+
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 26%;
+}

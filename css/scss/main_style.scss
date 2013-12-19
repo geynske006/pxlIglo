@@ -1,16 +1,33 @@
-#top{
-	background-color: #3099d3;
-	img{
-		width:100%;
-	}
-}
-#bottom{
-	background-color: #2482bf;
-	img{
-		width: 100px;
-	}
-	div{
-		color: #fff;
-	}
+@import "partials/font";
+$l-blue: #3099d3;//lichtblauw
+$d-blue: #2482bf;//donkerblauw
+$center: 0 auto;//centreren die handel
+$screen-width: 960px;//standaard breedte: 
 
+#container{
+	width: $screen-width;
+	margin: $center;
+	#top{
+		background-color: $l-blue;
+		img{
+			width:100%;
+		}
+	}
+	#bottom{
+		background-color: $d-blue;
+		width: $screen-width; // breedte van het vak 
+		margin: $center;
+		div{
+			color: #fff;
+		}
+		#social{
+			padding-left: 41.5%;
+			padding-bottom: 2%;
+			img{
+				padding-left: 2%;
+				width: $screen-width/9.6;	
+			}
+		}
+		
+	}
 }
