@@ -10,6 +10,7 @@
       href="./pic/fav.png">
 </head>
 <body>
+	<div id="buitenkant"></div>
 	<div id="container">
 
 		<div id="top"><img src="./pic/logo.png" alt="logo van PixelIglo"></div>

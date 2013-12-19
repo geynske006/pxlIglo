@@ -4,6 +4,17 @@ $d-blue: #2482bf;//donkerblauw
 $center: 0 auto;//centreren die handel
 $screen-width: 960px;//standaard breedte: 
 
+body{
+	background-color: $l-blue;
+}
+#buitenkant{
+	background-color: $d-blue;
+	height: 500px;
+	position: fixed;
+	top: 257px;
+	width:100%;	
+	z-index:-1;
+}
 #container{
 	width: $screen-width;
 	margin: $center;
@@ -17,17 +28,19 @@ $screen-width: 960px;//standaard breedte:
 		background-color: $d-blue;
 		width: $screen-width; // breedte van het vak 
 		margin: $center;
-		div{
-			color: #fff;
-		}
+		height: $screen-width/5;
+
 		#social{
 			padding-left: 41.5%;
 			padding-bottom: 2%;
 			img{
 				padding-left: 2%;
-				width: $screen-width/9.6;	
+				width: $screen-width/16;	
 			}
 		}
-		
+		#baseline{
+			font-family: myriad, sans-serif;
+			color:#fff;
+		}		
 	}
 }
