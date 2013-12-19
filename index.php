@@ -13,7 +13,10 @@
 	<div id="buitenkant"></div>
 	<div id="container">
 
-		<div id="top"><img src="./pic/logo.png" alt="logo van PixelIglo"></div>
+		<div id="top">
+			<img id="pxlName" src="./pic/name.png" alt="">
+			<img src="./pic/c.png" alt="iglo van PixelIglo onder constructie">
+		</div>
 		 
 		 <div id="bottom">
 		 	<div id="baseline">We're still building our webiglo!</div>

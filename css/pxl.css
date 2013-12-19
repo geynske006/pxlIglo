@@ -5,20 +5,14 @@
   font-style: normal;
   font-stretch: normal; }
 
-#baseline {
-  font-size: 40px;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 26%; }
-
 body {
   background-color: #3099d3; }
 
 #buitenkant {
   background-color: #2482bf;
-  height: 500px;
+  height: 300px;
   position: fixed;
-  top: 257px;
+  top: 420px;
   width: 100%;
   z-index: -1; }
 
@@ -26,9 +20,14 @@ body {
   width: 960px;
   margin: 0 auto; }
   #container #top {
-    background-color: #3099d3; }
+    background-color: #3099d3;
+    padding-top: 2%; }
     #container #top img {
-      width: 100%; }
+      width: 50%;
+      padding-left: 23.5%; }
+    #container #top #pxlName {
+      padding-top: 1%;
+      padding-bottom: 5%; }
   #container #bottom {
     background-color: #2482bf;
     width: 960px;
@@ -42,4 +41,8 @@ body {
         width: 60px; }
     #container #bottom #baseline {
       font-family: myriad, sans-serif;
-      color: #fff; }
+      color: #fff;
+      font-size: 35px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 25%; }
