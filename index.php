@@ -18,8 +18,8 @@
 		 <div id="bottom">
 		 	<div id="baseline">We're still building our webiglo!</div>
 		 	<div id="social">
-				<a href="https://twitter.com/PixelIglo"><img src="./pic/t.png" alt="twitter link"></a>
-				<a href="https://www.facebook.com/pixeliglo"><img src="./pic/f.png" alt="facebook link"></a>
+				<a href="https://twitter.com/PixelIglo"><img src="./pic/twitter.png" alt="twitter link"></a>
+				<a href="https://www.facebook.com/pixeliglo"><img src="./pic/facebook.png" alt="facebook link"></a>
 		 	</div>
 		 </div>
 	</div>
